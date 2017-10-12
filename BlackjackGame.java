@@ -10,8 +10,6 @@ import java.util.Random ;
 import java.util.Scanner;
 public class BlackjackGame
 {
-    //Instance Variables
-    // Constructor (Zero Parameter)
     public static void BlackjackGame() { 
 
         Hand player;
@@ -21,6 +19,16 @@ public class BlackjackGame
         System.out.println("Welcome to Blackjack!");
         System.out.println("You drew a " + player.getCard1() + " and a " + player.getCard2());
         System.out.println("Your total is " + player.getTotal());
-
+        System.out.println("The dealer drew a " + dealer.getCard1() + " and a " + dealer.getCard2());
+        System.out.println("Your total is " + player.getTotal ());
+        
+        
+    } 
+    public void getRandNum () {
+       
+        if ( player.getTotal = 21){
+            System.out.println ("You Win");
+        }
     }
+        
 }
